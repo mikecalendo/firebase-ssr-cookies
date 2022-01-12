@@ -22,3 +22,7 @@ if (!firebaseAdmin.apps.length) {
 }
 
 export { firebaseAdmin };
+  export function auth() {
+    throw new Error("Function not implemented.");
+  }
+

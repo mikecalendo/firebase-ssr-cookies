@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { firebaseClient } from '../firebaseClient';
+import { firebaseClient } from '../firebaseConfig.js/index.js';
 
 export default (_props: any) => {
   const [email, setEmail] = useState('');
